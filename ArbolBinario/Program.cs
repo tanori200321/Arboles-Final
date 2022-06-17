@@ -22,6 +22,7 @@ namespace ArbolesBinarios
             Console.WriteLine(abb.Recorrido(tipoRecorrido: ArbolBinario.TipoRecorrido.Preorden));
             Console.WriteLine(abb.Recorrido(tipoRecorrido: ArbolBinario.TipoRecorrido.Inorden));
             Console.WriteLine(abb.Recorrido(tipoRecorrido: ArbolBinario.TipoRecorrido.Posorden));
+            Console.WriteLine("");
         }
     }
 }
